@@ -84,7 +84,7 @@ var data = {
             Number: 5,
             Name: "Gabriel Bortoleto",
             Team: "Audi",
-            Points: 0
+            Points: 2
         },
         {
             Number: 30,
@@ -183,6 +183,20 @@ var data = {
                 { Player: "Pud", Drivers: [16, 87, 1] }
             ],
             BonusPoints: "+2 Points for Oliver Bearman for most places gained"
+           },
+           {
+            Name: "Japanese GP",
+            Date: "03-29-2026",
+            Finish: [12, 81, 16, 63, 1, 44, 10, 3, 30, 31, 27, 6, 5, 41, 55, 43, 11, 14, 77, 23, 18, 87],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 1, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 77] },
+                { Player: "Yuki and Friends", Drivers: [3, 6, 14] },
+                { Player: "Strollin' Outta Q1", Drivers: [44, 3, 31] },
+                { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
+                { Player: "Pud", Drivers: [16, 1, 87] }
+            ],
+            BonusPoints: "+2 Points for Gabriel Bortoleto for most places gained"
            }
     ]
 }
