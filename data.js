@@ -199,6 +199,20 @@ var data = {
             BonusPoints: "+2 Points for Gabriel Bortoleto for most places gained"
            },
            {
+            Name: "Miami GP Sprint",
+            Date: "05-02-2026",
+            Finish: [1, 81, 16, 63, 3, 12, 44, 10, 6, 43, 31, 87, 55, 30, 14, 11, 18, 23, 77, 27, 41, 5],
+            Picks: [
+                { Player: "Nick", Drivers: [1, 12, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 77] },
+                { Player: "Yuki and Friends", Drivers: [3, 6, 14] },
+                { Player: "Strollin' Outta Q1", Drivers: [3, 44, 31] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 12, 55] },
+                { Player: "Pud", Drivers: [1, 16, 87] }
+            ],
+            BonusPoints: "None for sprint"
+           }, 
+           {
             Name: "Miami GP",
             Date: "05-03-2026",
             Finish: [12, 1, 81, 63, 3, 44, 43, 16, 55, 23, 87, 5, 31, 41, 14, 11, 18, 77, 27, 30, 10, 6],
