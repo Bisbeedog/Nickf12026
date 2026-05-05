@@ -84,7 +84,7 @@ var data = {
             Number: 5,
             Name: "Gabriel Bortoleto",
             Team: "Audi",
-            Points: 2
+            Points: 4
         },
         {
             Number: 30,
@@ -193,6 +193,20 @@ var data = {
                 { Player: "Baskin Mommins", Drivers: [81, 63, 77] },
                 { Player: "Yuki and Friends", Drivers: [3, 6, 14] },
                 { Player: "Strollin' Outta Q1", Drivers: [44, 3, 31] },
+                { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
+                { Player: "Pud", Drivers: [16, 1, 87] }
+            ],
+            BonusPoints: "+2 Points for Gabriel Bortoleto for most places gained"
+           },
+           {
+            Name: "Miami GP",
+            Date: "05-03-2026",
+            Finish: [12, 1, 81, 63, 3, 44, 43, 16, 55, 23, 87, 5, 31, 41, 14, 11, 18, 77, 27, 30, 10, 6],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 1, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 77] },
+                { Player: "Yuki and Friends", Drivers: [3, 14, 6] },
+                { Player: "Strollin' Outta Q1", Drivers: [3, 44, 31] },
                 { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
                 { Player: "Pud", Drivers: [16, 1, 87] }
             ],
