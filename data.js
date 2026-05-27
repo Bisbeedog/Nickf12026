@@ -5,7 +5,7 @@ var data = {
         { Name: "Nick", Points: 0},
         { Name: "Strollin' Outta Q1", Points: 2},
         { Name: "Dynamic Racing Sloths", Points: 0},
-        { Name: "Baskin Mommins", Points: 0}
+        { Name: "Baskin Mommins", Points: 2}
     ],
     Driver: [
         {
@@ -30,7 +30,7 @@ var data = {
             Number: 10,
             Name: "Pierre Gasly",
             Team: "Alpine",
-            Points: 0
+            Points: 2
         },
         {
             Number: 11,
@@ -132,7 +132,7 @@ var data = {
             Number: 77,
             Name: "Valterri Bottas",
             Team: "Cadillac",
-            Points: 0
+            Points: 2
         },
         {
             Number: 81,
@@ -225,6 +225,34 @@ var data = {
                 { Player: "Pud", Drivers: [16, 1, 87] }
             ],
             BonusPoints: "+2 Points for Gabriel Bortoleto for most places gained"
+           }, 
+           {
+            Name: "Canada GP Sprint",
+            Date: "05-23-2026",
+            Finish: [63, 1, 12, 81, 16, 44, 3, 41, 43, 55, 30, 5, 31, 11, 27, 18, 77, 87, 23, 10, 6, 14],
+            Picks: [
+                { Player: "Nick", Drivers: [1, 12, 43] },
+                { Player: "Baskin Mommins", Drivers: [63, 81, 77] },
+                { Player: "Yuki and Friends", Drivers: [3, 6, 14] },
+                { Player: "Strollin' Outta Q1", Drivers: [44, 3, 31] },
+                { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
+                { Player: "Pud", Drivers: [1, 63, 87] }
+            ],
+            BonusPoints: "None for sprint"
+           }, 
+           {
+            Name: "Miami GP",
+            Date: "05-24-2026",
+            Finish: [12, 44, 3, 16, 6, 43, 30, 10, 55, 87, 81, 27, 5, 31, 18, 77, 11, 1, 63, 14, 23, 41],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 43, 1] },
+                { Player: "Baskin Mommins", Drivers: [81, 77, 63] },
+                { Player: "Yuki and Friends", Drivers: [3, 6, 14] },
+                { Player: "Strollin' Outta Q1", Drivers: [44, 3, 31] },
+                { Player: "Dynamic Racing Sloths", Drivers: [12, 55, 81] },
+                { Player: "Pud", Drivers: [87, 1, 63] }
+            ],
+            BonusPoints: "+2 Points for Pierre Gasly and Valterri Bottas for most places gained"
            }
     ]
 }
