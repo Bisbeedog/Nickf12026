@@ -236,7 +236,7 @@ var data = {
                 { Player: "Yuki and Friends", Drivers: [3, 6, 14] },
                 { Player: "Strollin' Outta Q1", Drivers: [44, 3, 31] },
                 { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
-                { Player: "Pud", Drivers: [1, 63, 87] }
+                { Player: "Pud", Drivers: [1, 16, 87] }
             ],
             BonusPoints: "None for sprint"
            }, 
@@ -250,7 +250,7 @@ var data = {
                 { Player: "Yuki and Friends", Drivers: [3, 6, 14] },
                 { Player: "Strollin' Outta Q1", Drivers: [44, 3, 31] },
                 { Player: "Dynamic Racing Sloths", Drivers: [12, 55, 81] },
-                { Player: "Pud", Drivers: [87, 1, 63] }
+                { Player: "Pud", Drivers: [16, 87, 1] }
             ],
             BonusPoints: "+2 Points for Pierre Gasly and Valterri Bottas for most places gained"
            }
