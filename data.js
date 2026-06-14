@@ -30,7 +30,7 @@ var data = {
             Number: 10,
             Name: "Pierre Gasly",
             Team: "Alpine",
-            Points: 2
+            Points: 6
         },
         {
             Number: 11,
@@ -241,7 +241,7 @@ var data = {
             BonusPoints: "None for sprint"
            }, 
            {
-            Name: "Miami GP",
+            Name: "Canada GP",
             Date: "05-24-2026",
             Finish: [12, 44, 3, 16, 6, 43, 30, 10, 55, 87, 81, 27, 5, 31, 18, 77, 11, 1, 63, 14, 23, 41],
             Picks: [
@@ -253,6 +253,34 @@ var data = {
                 { Player: "Pud", Drivers: [16, 87, 1] }
             ],
             BonusPoints: "+2 Points for Pierre Gasly and Valterri Bottas for most places gained"
+           }, 
+           {
+            Name: "Monaco GP",
+            Date: "06-07-2026",
+            Finish: [12, 44, 10, 6, 81, 30, 41, 23, 31, 14, 5, 63, 27, 43, 11, 55, 16, 18, 1, 87, 77, 3],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 43, 1] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 77] },
+                { Player: "Yuki and Friends", Drivers: [6, 14, 3] },
+                { Player: "Strollin' Outta Q1", Drivers: [44, 31, 3] },
+                { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
+                { Player: "Pud", Drivers: [16, 1, 87] }
+            ],
+            BonusPoints: "+2 Points for Pierre Gasly for most places gained"
+           }, 
+           {
+            Name: "Barcelona GP",
+            Date: "06-14-2026",
+            Finish: [44, 63, 1, 3, 81, 6, 10, 43, 30, 41, 5, 55, 31, 11, 16, 12, 87, 23, 14, 27, 77, 18],
+            Picks: [
+                { Player: "Nick", Drivers: [1, 43, 12] },
+                { Player: "Baskin Mommins", Drivers: [63, 81, 77] },
+                { Player: "Yuki and Friends", Drivers: [3, 6, 14] },
+                { Player: "Strollin' Outta Q1", Drivers: [44, 3, 31] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 55, 12] },
+                { Player: "Pud", Drivers: [1, 16, 87] }
+            ],
+            BonusPoints: "+2 Points for Pierre Gasly for most places gained"
            }
     ]
 }
