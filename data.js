@@ -1,8 +1,8 @@
 var data = {
     Player: [
         { Name: "Pud", Points: 2 },
-        { Name: "Yuki and Friends", Points: 2 },
-        { Name: "Nick", Points: 0},
+        { Name: "Yuki and Friends", Points: 4 },
+        { Name: "Nick", Points: 2},
         { Name: "Strollin' Outta Q1", Points: 2},
         { Name: "Dynamic Racing Sloths", Points: 0},
         { Name: "Baskin Mommins", Points: 2}
@@ -18,7 +18,7 @@ var data = {
             Number: 6,
             Name: "Isack Hadjar",
             Team: "Red Bull",
-            Points: 0
+            Points: 2
         },
         {
             Number: 1,
@@ -48,7 +48,7 @@ var data = {
             Number: 14,
             Name: "Fernando Alonso",
             Team: "Aston Martin",
-            Points: 0
+            Points: 2
         },
         {
             Number: 16,
@@ -108,7 +108,7 @@ var data = {
             Number: 43,
             Name: "Franco Colapinto",
             Team: "Alpine",
-            Points: 0
+            Points: 2
         },
         {
             Number: 44,
@@ -281,6 +281,62 @@ var data = {
                 { Player: "Pud", Drivers: [1, 16, 87] }
             ],
             BonusPoints: "+2 Points for Pierre Gasly for most places gained"
+           }, 
+           {
+            Name: "Austrian GP",
+            Date: "06-28-2026",
+            Finish: [63, 3, 12, 81, 44, 6, 1, 16, 30, 41, 5, 27, 10, 87, 43, 31, 23, 14, 18, 55, 11, 77],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 1, 43] },
+                { Player: "Baskin Mommins", Drivers: [63, 81, 77] },
+                { Player: "Yuki and Friends", Drivers: [3, 6, 14] },
+                { Player: "Strollin' Outta Q1", Drivers: [3, 44, 31] },
+                { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
+                { Player: "Pud", Drivers: [1, 16, 87] }
+            ],
+            BonusPoints: "+2 Points for Fernando Alonso for most places gained"
+           }, 
+           {
+            Name: "British GP Sprint",
+            Date: "07-04-2026",
+            Finish: [12, 44, 1, 63, 16, 3, 81, 30, 6, 41, 10, 43, 5, 87, 27, 31, 55, 23, 77, 14, 18, 11],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 1, 43] },
+                { Player: "Baskin Mommins", Drivers: [63, 81, 77] },
+                { Player: "Yuki and Friends", Drivers: [3, 6, 14] },
+                { Player: "Strollin' Outta Q1", Drivers: [44, 3, 31] },
+                { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
+                { Player: "Pud", Drivers: [1, 16, 87] }
+            ],
+            BonusPoints: "None for Sprint"
+           }, 
+           {
+            Name: "British GP",
+            Date: "07-05-2026",
+            Finish: [16, 63, 44, 1, 6, 30, 41, 5, 43, 10, 81, 87, 31, 11, 12, 77, 55, 14, 18, 3, 23, 27],
+            Picks: [
+                { Player: "Nick", Drivers: [1, 43, 12] },
+                { Player: "Baskin Mommins", Drivers: [63, 81, 77] },
+                { Player: "Yuki and Friends", Drivers: [6, 14, 3] },
+                { Player: "Strollin' Outta Q1", Drivers: [44, 31, 3] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 12, 55] },
+                { Player: "Pud", Drivers: [16, 1, 87] }
+            ],
+            BonusPoints: "+2 Points for Franco Colapinto for most places gained"
+           }, 
+           {
+            Name: "Belgian GP",
+            Date: "07-19-2026",
+            Finish: [12, 16, 3, 44, 81, 6, 1, 5, 41, 43, 10, 30, 27, 87, 23, 55, 31, 77, 14, 18, 11, 63],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 1, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 77, 63] },
+                { Player: "Yuki and Friends", Drivers: [3, 6, 14] },
+                { Player: "Strollin' Outta Q1", Drivers: [3, 44, 31] },
+                { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
+                { Player: "Pud", Drivers: [16, 1, 87] }
+            ],
+            BonusPoints: "+2 Points for Isack Hadjar for most places gained"
            }
     ]
 }
