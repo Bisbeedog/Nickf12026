@@ -407,7 +407,7 @@ var data = {
             Picks: [
                 { Player: "Nick", Drivers: [12, 1, 43] },
                 { Player: "Baskin Mommins", Drivers: [81, 77, 63] },
-                { Player: "Yuki and Friends", Drivers: [3, 22, 14] },
+                { Player: "Yuki and Friends", Drivers: [3, 6, 14] },
                 { Player: "Strollin' Outta Q1", Drivers: [3, 44, 31] },
                 { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
                 { Player: "Pud", Drivers: [16, 1, 87] }
