@@ -72,7 +72,7 @@ var data = {
             Number: 41,
             Name: "Arvid Lindblad",
             Team: "RB",
-            Points: 0
+            Points: 2
         },
         {
             Number: 23,
@@ -413,6 +413,20 @@ var data = {
                 { Player: "Pud", Drivers: [16, 1, 87] }
             ],
             BonusPoints: "+2 Points for Kimi Antonelli for most places gained"
+           },
+           {
+            Name: "Bahrain GP in Malaysia",
+            Date: "10-04-2026",
+            Finish: [3, 12, 44, 16, 6, 81, 30, 14, 1, 41, 27, 18, 43, 87, 31, 10, 55, 5, 11, 63, 23, 77],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 1, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 77] },
+                { Player: "Yuki and Friends", Drivers: [3, 6, 14] },
+                { Player: "Strollin' Outta Q1", Drivers: [3, 44, 31] },
+                { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
+                { Player: "Pud", Drivers: [16, 1, 87] }
+            ],
+            BonusPoints: "+2 Points for Arvid Lindblad for most places gained"
            },
     ]
 }
