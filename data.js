@@ -1,10 +1,10 @@
 var data = {
     Player: [
         { Name: "Pud", Points: 2 },
-        { Name: "Yuki and Friends", Points: 4 },
-        { Name: "Nick", Points: 2},
+        { Name: "Yuki and Friends", Points: 6 },
+        { Name: "Nick", Points: 6},
         { Name: "Strollin' Outta Q1", Points: 2},
-        { Name: "Dynamic Racing Sloths", Points: 0},
+        { Name: "Dynamic Racing Sloths", Points: 4},
         { Name: "Baskin Mommins", Points: 2}
     ],
     Driver: [
@@ -42,13 +42,13 @@ var data = {
             Number: 12,
             Name: "Kimi Antonelli",
             Team: "Mercedes",
-            Points: 0
+            Points: 4
         },
         {
             Number: 14,
             Name: "Fernando Alonso",
             Team: "Aston Martin",
-            Points: 2
+            Points: 4
         },
         {
             Number: 16,
@@ -60,6 +60,12 @@ var data = {
             Number: 18,
             Name: "Lance Stroll",
             Team: "Aston Martin",
+            Points: 0
+        },  
+        {
+            Number: 22,
+            Name: "Yuki Tsunoda",
+            Team: "Red Bull",
             Points: 0
         },
         {
@@ -337,6 +343,76 @@ var data = {
                 { Player: "Pud", Drivers: [16, 1, 87] }
             ],
             BonusPoints: "+2 Points for Isack Hadjar for most places gained"
-           }
+           }, 
+           {
+            Name: "Hungarian GP",
+            Date: "07-26-2026",
+            Finish: [1, 3, 12, 16, 44, 6, 63, 30, 27, 41, 5, 10, 18, 14, 43, 31, 23, 55, 87, 81, 11, 77],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 1, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 77, 63] },
+                { Player: "Yuki and Friends", Drivers: [3, 6, 14] },
+                { Player: "Strollin' Outta Q1", Drivers: [3, 44, 31] },
+                { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
+                { Player: "Pud", Drivers: [16, 1, 87] }
+            ],
+            BonusPoints: "+2 Points for Lance Stroll for most places gained"
+           },
+           {
+            Name: "Dutch GP Sprint",
+            Date: "08-22-2026",
+            Finish: [63, 16, 1, 12, 81, 3, 44, 10, 5, 41, 30, 43, 22, 31, 22, 31, 87, 23, 18, 14, 77, 55, 11, 27],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 1, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 77, 63] },
+                { Player: "Yuki and Friends", Drivers: [3, 22, 14] },
+                { Player: "Strollin' Outta Q1", Drivers: [3, 44, 31] },
+                { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
+                { Player: "Pud", Drivers: [16, 1, 87] }
+            ],
+            BonusPoints: "None for sprint"
+           },
+           {
+            Name: "Dutch GP",
+            Date: "08-23-2026",
+            Finish: [1, 12, 63, 44, 16, 81, 30, 27, 14, 10, 22, 41, 5, 43, 11, 55, 23, 77, 31, 18, 87, 3],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 1, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 77, 63] },
+                { Player: "Yuki and Friends", Drivers: [3, 22, 14] },
+                { Player: "Strollin' Outta Q1", Drivers: [3, 44, 31] },
+                { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
+                { Player: "Pud", Drivers: [16, 1, 87] }
+            ],
+            BonusPoints: "+2 Points for Fernando Alonso for most places gained"
+           },
+           {
+            Name: "Spanish GP",
+            Date: "09-13-2026",
+            Finish: [12, 3, 1, 16, 63, 30, 43, 81, 41, 27, 31, 10, 5, 22, 23, 87, 14, 77, 55, 11, 18, 44],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 1, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 77, 63] },
+                { Player: "Yuki and Friends", Drivers: [3, 22, 14] },
+                { Player: "Strollin' Outta Q1", Drivers: [3, 44, 31] },
+                { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
+                { Player: "Pud", Drivers: [16, 1, 87] }
+            ],
+            BonusPoints: "+2 Points for Kimi Antonelli for most places gained"
+           },
+           {
+            Name: "Azerbaijani GP",
+            Date: "09-26-2026",
+            Finish: [63, 3, 6, 16, 12, 44, 41, 31, 87, 55, 27, 30, 81, 11, 5, 77, 43, 10, 1, 23, 14, 18],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 1, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 77, 63] },
+                { Player: "Yuki and Friends", Drivers: [3, 22, 14] },
+                { Player: "Strollin' Outta Q1", Drivers: [3, 44, 31] },
+                { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
+                { Player: "Pud", Drivers: [16, 1, 87] }
+            ],
+            BonusPoints: "+2 Points for Kimi Antonelli for most places gained"
+           },
     ]
 }
