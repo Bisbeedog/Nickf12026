@@ -1,7 +1,7 @@
 var data = {
     Player: [
         { Name: "Pud", Points: 2 },
-        { Name: "Yuki and Friends", Points: 6 },
+        { Name: "Yuki and Friends", Points: 8 },
         { Name: "Nick", Points: 6},
         { Name: "Strollin' Outta Q1", Points: 2},
         { Name: "Dynamic Racing Sloths", Points: 4},
@@ -18,7 +18,7 @@ var data = {
             Number: 6,
             Name: "Isack Hadjar",
             Team: "Red Bull",
-            Points: 2
+            Points: 4
         },
         {
             Number: 1,
@@ -90,7 +90,7 @@ var data = {
             Number: 5,
             Name: "Gabriel Bortoleto",
             Team: "Audi",
-            Points: 4
+            Points: 6
         },
         {
             Number: 30,
@@ -427,6 +427,34 @@ var data = {
                 { Player: "Pud", Drivers: [16, 1, 87] }
             ],
             BonusPoints: "+2 Points for Arvid Lindblad for most places gained"
+           },
+           {
+            Name: "Singapore GP (not in Malaysia)",
+            Date: "10-11-2026",
+            Finish: [3, 16, 12, 1, 81, 44, 30, 27, 63, 6, 10, 87, 31, 55, 41, 14, 11, 23, 77, 18, 43, 5],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 1, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 77] },
+                { Player: "Yuki and Friends", Drivers: [3, 6, 14] },
+                { Player: "Strollin' Outta Q1", Drivers: [3, 44, 31] },
+                { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
+                { Player: "Pud", Drivers: [16, 1, 87] }
+            ],
+            BonusPoints: "+2 Points for Isack Hadjar for most places gained"
+           },
+           {
+            Name: "US GP",
+            Date: "10-25-2026",
+            Finish: [12, 16, 3, 44, 1, 6, 81, 63, 30, 10, 27, 41, 5, 31, 18, 14, 23, 55, 11, 77, 43, 87],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 1, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 77] },
+                { Player: "Yuki and Friends", Drivers: [3, 6, 14] },
+                { Player: "Strollin' Outta Q1", Drivers: [3, 44, 31] },
+                { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
+                { Player: "Pud", Drivers: [16, 1, 87] }
+            ],
+            BonusPoints: "+2 Points for Gabriel Bortoleto for most places gained"
            },
     ]
 }
