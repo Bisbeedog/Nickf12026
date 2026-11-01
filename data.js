@@ -2,7 +2,7 @@ var data = {
     Player: [
         { Name: "Pud", Points: 2 },
         { Name: "Yuki and Friends", Points: 8 },
-        { Name: "Nick", Points: 6},
+        { Name: "Nick", Points: 8},
         { Name: "Strollin' Outta Q1", Points: 2},
         { Name: "Dynamic Racing Sloths", Points: 4},
         { Name: "Baskin Mommins", Points: 2}
@@ -185,7 +185,7 @@ var data = {
            {
             Name: "Chinese GP",
             Date: "03-15-2026",
-            Finish: [12, 63, 44, 16, 87, 10, 30, 6, 55, 43, 27, 41, 77, 31, 11, 3, 14, 18, 81, 1, 5, 23],
+            Finish: [12, 63, 44, 16, 87, 10, 30, 6, 55, 43, 27, 41, 77, 31, 11, 3, 14, 18, 1, 81, 5, 23],
             Picks: [
                 { Player: "Nick", Drivers: [12, 43, 1] },
                 { Player: "Baskin Mommins", Drivers: [63, 77, 81] },
