@@ -111,6 +111,12 @@ var data = {
             Points: 2
         },
         {
+            Number: 50,
+            Name: "Ryo Hirawaka",
+            Team: "Haas",
+            Points: 0
+        },
+        {
             Number: 43,
             Name: "Franco Colapinto",
             Team: "Alpine",
@@ -455,6 +461,20 @@ var data = {
                 { Player: "Pud", Drivers: [16, 1, 87] }
             ],
             BonusPoints: "+2 Points for Gabriel Bortoleto for most places gained"
+           },
+           {
+            Name: "Mexican GP",
+            Date: "11-01-2026",
+            Finish: [3, 44, 12, 16, 1, 63, 81, 43, 30, 10, 5, 6, 50, 23, 55, 27, 11, 41, 87, 77, 18, 14],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 1, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 77] },
+                { Player: "Yuki and Friends", Drivers: [3, 6, 14] },
+                { Player: "Strollin' Outta Q1", Drivers: [3, 44, 50] },
+                { Player: "Dynamic Racing Sloths", Drivers: [12, 81, 55] },
+                { Player: "Pud", Drivers: [16, 1, 87] }
+            ],
+            BonusPoints: "+2 Points for Liam Lawson for most places gained"
            },
     ]
 }
